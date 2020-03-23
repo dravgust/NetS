@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  nets.robot:
+    image: ${DOCKER_REGISTRY-}netsrobot
+    container_name: nets.robot
+    build:
+      context: .
+      dockerfile: NetS.Robot/Dockerfile

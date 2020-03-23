@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NetS.Robot": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
